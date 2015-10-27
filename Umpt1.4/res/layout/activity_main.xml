@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/maincolor3"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/maincolor3" />
+    
+    
+    
+      <ImageView
+        android:id="@+id/maincolor2"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/maincolor2" />
+      
+      
+      
+        <ImageView
+        android:id="@+id/maincolor1"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/maincolor1" />
+
+    
+    
+     
+    
+    
+         <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="202dp"
+                android:text="颜色根据剩余内存量等信息决定" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:background="@drawable/communicationmain"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/button1"
+        android:text=" " />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/button2"
+        android:background="@drawable/systemmain"
+        android:text=" " />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/softwaremain"
+        android:text=" " />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/button4"
+        android:background="@drawable/internetmain"
+        android:text=" " />
+
+    
+    
+    
+    
+    <Button
+            android:id="@+id/fragment_open"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#00000000" 
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+            android:text="三" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="60dp"
+            android:text="    Umbrealla Protect"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/cupinfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/memoryinfo"
+            android:layout_marginTop="25dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/siminfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/display"
+            android:layout_marginTop="25dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/cupinfo"
+            android:layout_marginTop="25dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/memoryinfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="85dp"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/maintest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/memoryinfo"
+            android:text="test" />
+
+</RelativeLayout>

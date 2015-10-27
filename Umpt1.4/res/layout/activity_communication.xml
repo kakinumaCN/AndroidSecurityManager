@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ee707f"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/title" />
+
+
+
+     <ImageView
+        android:id="@+id/communiactionbig"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/communicationbig" />
+
+     
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="280dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffff"
+        android:orientation="vertical" >
+
+         <Button
+             android:id="@+id/communication_to_dialog"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Button" />
+
+         <Button
+             android:id="@+id/black_menu"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Button" />
+
+         <Button
+             android:id="@+id/calls_attribution"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Button" />
+
+    </LinearLayout>
+</RelativeLayout>

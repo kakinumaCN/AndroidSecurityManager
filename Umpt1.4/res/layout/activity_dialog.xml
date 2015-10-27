@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#a8a8a8">
+    <include layout="@layout/title" />
+
+    <Button
+        android:id="@+id/dnj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/dn0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/dnj"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/dnx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/dn0"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/dn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dnj"
+        android:layout_alignParentLeft="true"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/dn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dn7"
+        android:layout_alignLeft="@+id/dn0"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/dn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dn8"
+        android:layout_toRightOf="@+id/dn8"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/dn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dn7"
+        android:layout_alignParentLeft="true"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/dn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dn4"
+        android:layout_toRightOf="@+id/dn4"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/dn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dn5"
+        android:layout_alignLeft="@+id/dn9"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/dn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dn4"
+        android:background="#66ccff"
+        android:textSize="35sp"
+        android:textColor="#999999"
+        android:layout_alignParentLeft="true"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/dn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dn1"
+        android:layout_alignLeft="@+id/dn5"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/dn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/dn2"
+        android:layout_toRightOf="@+id/dn2"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/dntext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/dialogbutton"
+        android:layout_marginTop="28dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/dnr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dn1"
+        android:layout_alignParentLeft="true"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/dialogbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="拨号" />
+     
+</RelativeLayout>
